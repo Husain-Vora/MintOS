@@ -65,10 +65,11 @@ static struct paging_4gb_chunk* kernel_chunk = 0;
 
 void kernel_main() {
     terminal_initialize();
-    print("Hello World!!!\ntest");
+    print("Hello World!!!\ntest\n");
 
     // Intialize the heap
-    kheap_init();    
+    kheap_init();  
+
     // Search and Initialize disks
     disk_search_and_init();
 
