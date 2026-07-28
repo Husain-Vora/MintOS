@@ -1,7 +1,6 @@
 #ifndef STRING_H
 #define STRING_H
 
-#include <stdint.h>
 #include <stdbool.h>
 
 int strlen( const char* ptr );
