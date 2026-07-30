@@ -20,10 +20,10 @@ int strnlen( const char* ptr, int max ) {
     return i;
 }
 
-bool isdigit(char c) {
+bool isdigit( char c ) {
     return c >= 48 && c <= 57;
 }
 
-int tonumericdigit(char c) {
+int tonumericdigit( char c ) {
     return c - 48;
 }
